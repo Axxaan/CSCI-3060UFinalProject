@@ -1,0 +1,1 @@
+Error: Invalid characters in the username. Please use only letters and numbers.

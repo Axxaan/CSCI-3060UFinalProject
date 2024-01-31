@@ -1,0 +1,1 @@
+Error: Privileged transactions are not allowed for standard users.

@@ -1,0 +1,1 @@
+Error: Admin users cannot perform unprivileged transactions.

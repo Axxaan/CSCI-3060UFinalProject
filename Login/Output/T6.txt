@@ -1,0 +1,1 @@
+Error: Another user is already logged in. Please logout first.
