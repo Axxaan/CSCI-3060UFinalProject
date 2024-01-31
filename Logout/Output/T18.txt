@@ -1,0 +1,1 @@
+Error: Please resolve the transaction error before logging out.
