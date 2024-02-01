@@ -1,0 +1,10 @@
+type in buyer username:
+  >user123
+type in seller username:
+  >user321
+type in amount of credit:
+  >
+
+Please type in a the amount of credits
+
+type in amount of credit:

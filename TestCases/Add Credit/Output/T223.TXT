@@ -1,0 +1,4 @@
+type in amount of credit:
+  >500.25
+
+Transaction completed

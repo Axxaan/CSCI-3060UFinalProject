@@ -1,0 +1,7 @@
+type in amount of credit:
+  >5000
+type in username:
+  >user123 
+
+Transaction failed. Maximum amount of credit has been exceeded
+for this account

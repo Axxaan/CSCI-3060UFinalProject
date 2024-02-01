@@ -1,0 +1,2 @@
+addcredit
+invalid_username

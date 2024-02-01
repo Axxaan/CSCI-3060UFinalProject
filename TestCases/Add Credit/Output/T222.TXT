@@ -1,0 +1,6 @@
+type in amount of credit:
+  >9999999
+
+Credit amount exceeds maximum please try again
+
+type in amount of credit:

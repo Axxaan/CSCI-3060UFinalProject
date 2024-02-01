@@ -1,0 +1,6 @@
+type in amount of credit:
+  >500.25
+type in username:
+  >user123 
+
+Transaction completed

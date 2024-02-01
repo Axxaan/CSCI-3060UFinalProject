@@ -1,0 +1,9 @@
+type in amount of credit:
+  >500
+type in username:
+  >(empty)
+
+Please type in a username
+
+type in username:
+  >

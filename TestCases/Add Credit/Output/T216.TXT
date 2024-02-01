@@ -1,0 +1,6 @@
+type in amount of credit:
+  >1000
+type in username:
+  >user123
+
+Maximum amount of credits has exceeded for this session

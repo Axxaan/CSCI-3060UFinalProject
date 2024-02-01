@@ -1,0 +1,6 @@
+type in amount of credit:
+  >(empty)
+
+Please type in a credit amount
+
+type in amount of credit:

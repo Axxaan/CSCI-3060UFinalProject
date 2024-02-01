@@ -1,0 +1,10 @@
+type in buyer username:
+  >user123
+type in seller username:
+  >user321
+type in amount of credit:
+  >(incorrect amount of credits)
+
+Incorrect amounnt of credits was entered
+
+type in amount of credit:

@@ -1,0 +1,6 @@
+type in buyer username:
+  >user123
+type in seller username:
+  >user321
+
+Seller's account has been deleted
