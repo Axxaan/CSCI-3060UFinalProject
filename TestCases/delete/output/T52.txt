@@ -1,0 +1,2 @@
+Successful admin login!
+Deletion confirmation requested for 'UserToDelete'.

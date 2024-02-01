@@ -1,0 +1,3 @@
+Successful admin login!
+User 'UserWithInventory' deleted!
+All inventory cleared.

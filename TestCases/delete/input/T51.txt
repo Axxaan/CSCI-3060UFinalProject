@@ -1,0 +1,5 @@
+login
+Admin
+delete
+DeletedUser
+checkTransactions

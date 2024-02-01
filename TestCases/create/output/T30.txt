@@ -1,0 +1,3 @@
+Successful login as admin!
+Enter username and credit:
+User with maximum credit 'MaxCreditUser' created successfully!

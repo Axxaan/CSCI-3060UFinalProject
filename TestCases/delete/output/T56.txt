@@ -1,0 +1,2 @@
+Successful admin login!
+Multiple users deleted sequentially!

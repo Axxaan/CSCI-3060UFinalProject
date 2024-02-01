@@ -1,0 +1,3 @@
+Successful admin login!
+User 'DeletedUser' deleted!
+No further transactions allowed for 'DeletedUser'.

@@ -1,0 +1,5 @@
+login
+Admin
+create
+InvalidCreditUser
+1000000

@@ -1,0 +1,3 @@
+Successful admin login!
+User 'UserToDelete' deleted!
+Deletion logged in transaction file.

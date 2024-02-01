@@ -1,0 +1,3 @@
+Successful admin login!
+Please enter username for deletion:
+Username accepted.

@@ -1,0 +1,3 @@
+Successful admin login!
+User 'UserToDelete' deleted!
+Audit trail updated.

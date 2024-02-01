@@ -1,0 +1,3 @@
+Successful admin login!
+User 'UserWithPendingTransactions' deleted!
+Pending transactions handled.

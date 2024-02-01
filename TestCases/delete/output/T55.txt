@@ -1,0 +1,3 @@
+Successful admin login!
+User 'DeletedUser' deleted!
+New user 'DeletedUser' created successfully!

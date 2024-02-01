@@ -1,0 +1,3 @@
+Successful admin login!
+User 'UserWithActiveSession' deleted!
+Active sessions terminated.

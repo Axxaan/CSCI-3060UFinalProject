@@ -1,0 +1,1 @@
+Error: Admin cannot delete own account.

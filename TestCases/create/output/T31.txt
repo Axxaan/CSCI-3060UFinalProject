@@ -1,0 +1,3 @@
+Successful login as admin!
+Enter username and credit:
+Error: Invalid credit amount for 'InvalidCreditUser'.
