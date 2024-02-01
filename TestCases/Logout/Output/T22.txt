@@ -1,1 +1,6 @@
-No errors
+1. Enter username:
+   > user123
+2. Successful login as user123!
+3. Game listed for sale successfully.
+4. Purchased game successfully.
+5. Successful logout.

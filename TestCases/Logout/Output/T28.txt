@@ -1,1 +1,5 @@
-Error: Failed to write transactions to the file. Please contact support.
+1. Enter username:
+   > user123
+2. Successful login as user123!
+3. Error: An error occurred while writing to the file. Please try again.
+4. Successful logout.

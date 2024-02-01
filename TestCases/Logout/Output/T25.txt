@@ -1,1 +1,5 @@
-Error: Please wait for the transaction to complete before logging out.
+1. Enter username:
+   > user123
+2. Successful login as user123!
+3. Purchased game successfully.
+4. Successful logout.

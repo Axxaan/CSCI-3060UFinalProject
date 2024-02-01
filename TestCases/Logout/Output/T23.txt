@@ -1,1 +1,11 @@
-No errors
+1. Enter username:
+   > user123
+2. Successful login as user123!
+3. Enter buyer's username:
+   > anotheruser
+4. Enter seller's username:
+   > user123
+5. Enter the amount to refund:
+   > 20.00
+6. Refund processed successfully.
+7. Successful logout.

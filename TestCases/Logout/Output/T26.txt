@@ -1,1 +1,5 @@
-Error: Please resolve the transaction error before logging out.
+1. Enter username:
+   > user123
+2. Successful login as user123!
+3. Error: Game listing failed. Please try again.
+4. Successful logout.

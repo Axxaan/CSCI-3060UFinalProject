@@ -1,1 +1,7 @@
-No errors
+1. Enter username:
+   > adminUser
+2. Successful login as adminUser!
+3. Enter username to delete:
+   > user123
+4. User deleted successfully.
+5. Successful logout.
