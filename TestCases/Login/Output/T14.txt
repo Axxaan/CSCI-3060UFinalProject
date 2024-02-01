@@ -1,1 +1,3 @@
-Error: Another session is already active. Please logout first.
+1. Enter username:
+   > user123
+2. Error: Another session is already active for user123. Please logout first.

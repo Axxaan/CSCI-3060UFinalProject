@@ -1,1 +1,12 @@
-Error: Account temporarily locked. Please try again later.
+1. Enter username:
+   > wrongUser
+2. Error: Incorrect username or account temporarily locked. Please try again later.
+3. Enter username:
+   > wrongUser
+4. Error: Incorrect username or account temporarily locked. Please try again later.
+5. Enter username:
+   > wrongUser
+6. Error: Incorrect username or account temporarily locked. Please try again later.
+7. Enter username:
+   > wrongUser
+8. Error: Account temporarily locked due to consecutive failed login attempts. Please try again later.

@@ -1,1 +1,3 @@
-Error: User does not exist. Please enter a valid username.
+1. Enter username:
+   > nonexistentUser
+2. Error: User nonexistentUser does not exist. Please enter a valid username.

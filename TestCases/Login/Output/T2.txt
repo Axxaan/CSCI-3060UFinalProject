@@ -1,1 +1,3 @@
-Error: Invalid characters in the username. Please use only letters and numbers.
+1. Enter username:
+   > user@invalid
+2. Error: Invalid characters in the username. Please use only letters and numbers.

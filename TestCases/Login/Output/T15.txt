@@ -1,1 +1,4 @@
-No errors
+1. System reset successful.
+2. Enter username:
+   > user123
+3. Successful login as user123!

@@ -1,1 +1,6 @@
-No errors
+1. Enter username:
+   > adminUser
+2. Successful logout.
+3. Enter username:
+   > adminUser
+4. Successful login as adminUser!

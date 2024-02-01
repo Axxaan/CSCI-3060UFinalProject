@@ -1,1 +1,3 @@
-Error: Admin users cannot perform unprivileged transactions.
+1. Enter username:
+   > adminUser
+2. Error: Admin users cannot perform unprivileged transactions.

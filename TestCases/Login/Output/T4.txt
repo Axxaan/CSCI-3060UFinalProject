@@ -1,1 +1,3 @@
-Error: Privileged transactions are not allowed for standard users.
+1. Enter username:
+   > user123
+2. Error: Privileged transactions are not allowed for standard users.
