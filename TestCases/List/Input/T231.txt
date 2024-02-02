@@ -1,0 +1,7 @@
+login
+adminUser
+create
+delete
+addcredit
+list
+logout

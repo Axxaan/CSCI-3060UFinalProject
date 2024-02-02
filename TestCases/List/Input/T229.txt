@@ -1,0 +1,6 @@
+login
+fullStandardUser
+buy
+sell
+list
+logout

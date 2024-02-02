@@ -1,0 +1,8 @@
+login
+adminUser
+(add multiple transactions)
+logout
+login
+adminUser
+list
+logout

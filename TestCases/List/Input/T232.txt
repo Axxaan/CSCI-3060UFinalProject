@@ -1,0 +1,5 @@
+login
+fullStandardUser
+(concurrent transactions by other users)
+list
+logout
