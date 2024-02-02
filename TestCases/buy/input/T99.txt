@@ -1,0 +1,9 @@
+login
+buy-standard-user
+addcredit
+50.00
+logout
+login
+buy-standard-user
+buy
+Street Fighter 6

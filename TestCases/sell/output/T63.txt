@@ -1,0 +1,4 @@
+1. Enter username:
+   > buy-standard-user
+2. Successful login as buy-standard-user!
+3. Access Denied: Buy-Standard user may not sell games

@@ -1,0 +1,5 @@
+login 
+sell-standard-user
+logout
+login
+sell

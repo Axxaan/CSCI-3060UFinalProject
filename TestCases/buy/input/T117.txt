@@ -1,0 +1,4 @@
+login
+full-standard-user
+buy
+Street Fighter 6

@@ -1,0 +1,5 @@
+login
+buy-standard-user
+buy
+Maximum-Priced-Game
+sell-standard-user

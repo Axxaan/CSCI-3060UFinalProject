@@ -1,0 +1,5 @@
+login
+buy-standard-user
+buy
+street fighTer 6
+sell-standard-user

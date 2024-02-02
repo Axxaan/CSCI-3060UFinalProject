@@ -1,0 +1,5 @@
+login
+admin
+buy
+Street Fighter 6
+sell-standard-user

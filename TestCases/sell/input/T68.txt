@@ -1,0 +1,5 @@
+login 
+full-standard-user
+sell
+Street Fighter 6
+59.99
