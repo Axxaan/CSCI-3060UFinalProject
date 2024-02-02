@@ -1,4 +1,4 @@
-type in amount of credit:
+type in amount of Credit:
   >500.25
 
 Transaction completed

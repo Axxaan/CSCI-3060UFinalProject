@@ -1,4 +1,4 @@
-type in buyer username:
+type in Buyer username:
   >user123
 
 Invalid Buyer Username

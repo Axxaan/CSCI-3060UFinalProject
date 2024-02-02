@@ -1,4 +1,4 @@
-type in amount of credit:
+type in amount of Credit:
   >9999999
 
 Credit amount exceeds maximum please try again

@@ -1,4 +1,4 @@
-refund
+Refund
 user123
 user321
 non_existing_game_name

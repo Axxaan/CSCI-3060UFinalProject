@@ -1,4 +1,4 @@
-type in amount of credit:
+type in amount of Credit:
   >(empty)
 
 Please type in a credit amount

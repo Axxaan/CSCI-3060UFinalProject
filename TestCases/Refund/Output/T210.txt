@@ -1,4 +1,4 @@
-type in buyer username:
+type in Buyer username:
   >
 
 Please type in a username

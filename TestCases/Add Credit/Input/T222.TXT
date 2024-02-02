@@ -1,2 +1,2 @@
-addcredit
+addCredit
 9999999

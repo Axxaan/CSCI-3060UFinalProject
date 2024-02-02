@@ -1,4 +1,4 @@
-refund
+Refund
 buyer_username
 seller_username
 (incorrect amount of credits)

@@ -1,2 +1,2 @@
-addcredit
+addCredit
 500.25
