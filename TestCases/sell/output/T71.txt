@@ -1,0 +1,4 @@
+1. Enter username
+2. Successful login as admin-user!
+4.Enter Game Name:
+5. Error: Street Fighter 61231234561 exceeds the maximum allowed lenght of 25 letters, Try again!

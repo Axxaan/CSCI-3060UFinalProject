@@ -1,0 +1,6 @@
+1. Enter username
+2. Successful login as admin-user!
+4. Enter Game Name:
+5. Street Fighter 6 selected as game name. Enter Price:
+6. Successful Listing of Street Fighter 6 of 59.99, please restart session to finalize!
+7. Street Fighter 6, 59.99 by admin-user logged into TransactionFile

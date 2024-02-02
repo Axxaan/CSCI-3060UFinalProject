@@ -1,4 +1,6 @@
 login
 buy-standard-user
+list
 buy
 Street Fighter 6
+full-standard-user

@@ -1,0 +1,2 @@
+1. Enter username
+2. Error: Please login before selling a game!

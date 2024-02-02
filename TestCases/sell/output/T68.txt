@@ -1,0 +1,5 @@
+1. Enter username
+2. Successful login as full-standard-user!
+4.Enter Game Name:
+5. Street Fighter 6 selected as game name. Enter Price:
+6. Succesfull Listing of Street Fighter 6 of 59.99, please restart session to finalize!

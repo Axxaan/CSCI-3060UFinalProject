@@ -1,0 +1,4 @@
+1. Enter username
+2. Successful login as buy-standard-user!
+3. Enter Game Name you wish to purchase:
+4. Error: Street Fighter 6 already exist's within your library! Please select another game!

@@ -1,0 +1,4 @@
+1. Enter username
+2. Successful login as sell-standard-user!
+3. Enter Game Name:
+4. Error: Invalid Game Name! Please use ASCII only!

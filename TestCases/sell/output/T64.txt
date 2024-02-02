@@ -1,6 +1,4 @@
 1. Enter username:
-   > admin-user
 2. Successful login as admin-user!
 3. Enter Video Game Name:
-    >Stréét Fightér 6
 4. Invalid Video Game Name: Use ASCII Letters only.

@@ -1,0 +1,6 @@
+1. Enter username
+2. Successful login as admin-user!
+3. Enter Game Name:
+4. Street Fighter 6 selected as game name. Enter Price:
+5. Successful Listing of Street Fighter 6 of 5.00, please restart session to finalize!
+6. Street Fighter 6, 5.00 from admin-user

@@ -1,0 +1,3 @@
+1. Enter username
+2. Successful login as buy-standard-user!
+3. Error: Sell-Standard users may not purchase games!

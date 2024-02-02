@@ -1,7 +1,4 @@
 login
 sell-standard
-addcredit
-59.99
 buy
-Street Fighter 6
 

@@ -2,4 +2,3 @@ login
 admin-user
 buy
 Street Fighter 6
-admin-user
