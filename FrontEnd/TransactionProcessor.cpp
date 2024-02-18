@@ -34,6 +34,10 @@ public:
         RefundTransaction refundTransaction(amount);
         refundTransaction.execute();
     }
+    void DeleteAccount(const std::string& username){
+        DeleteAccountTransaction deletetransaction(username);
+        deletetransaction.execute();
+    }
 
 };
 

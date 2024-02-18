@@ -16,4 +16,13 @@ public:
         std::cout << "Listing top games..." << std::endl;
         // Placeholder for listing top games logic
     }
+
+    void addGame(const std::string& gameName) {
+        // Placeholder for adding game
+        std::cout << "Added game: " << gameName << std::endl;
+    }
+    void removeGame(const std::string& gameName) {
+        // Placeholder for removing game
+        std::cout << "Removed game: " << gameName << std::endl;
+    }
 };

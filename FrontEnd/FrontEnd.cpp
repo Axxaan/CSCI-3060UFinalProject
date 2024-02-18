@@ -30,6 +30,7 @@ public:
         std::cout << "4. Add Credit\n";
         std::cout << "5. Refund Game\n";
         std::cout << "6. Login\n";
+        std::cout << "7. Delete Account\n";
         std::cout << "Enter your choice: ";
         
         std::string userInput;
@@ -76,6 +77,9 @@ public:
                 break;
             case 5:
                 transactionProcessor.RefundGame(19.99f);
+                break;
+            case 7:
+                transactionProcessor.DeleteAccount("exampleUser");
                 break;
             default:
                 std::cout << "Invalid choice. Please enter a valid number.\n";

@@ -71,3 +71,16 @@ public:
         // Insert refund logic here
     }
 };
+
+// Subclass for creating an account
+class DeleteAccountTransaction : public Transaction {
+private:
+    std::string username;
+public:
+    DeleteAccountTransaction(const std::string& un) : username(un) {}
+    void execute() override {
+        std::cout << "Account deleted for user: " << username << std::endl;
+        // account delete logic
+    }
+};
+
