@@ -52,11 +52,23 @@ public:
 class AddCreditTransaction : public Transaction {
 private:
     float amount;
+    std::string currency;
 public:
-    AddCreditTransaction(float amt) : amount(amt) {}
+    AddCreditTransaction(float amt, const std::string& c) : amount(amt), currency(c) {}
     void execute() override {
         std::cout << amount << " credits added." << std::endl;
         // Insert add credit logic here
+    }
+
+        float CurrencyState(const std::string& c) {
+        if ("USD" ==  c)
+        {
+            return 1.348*amount;
+        }
+        else
+        {
+            return amount;
+        }
     }
 };
 

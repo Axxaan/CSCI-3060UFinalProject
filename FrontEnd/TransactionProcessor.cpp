@@ -20,13 +20,13 @@ public:
         sellTransaction.execute();
     }
 
-    void BuyGame(const std::string& gameName, float price) {
+    void BuyGame(const std::string& gameName, const std::string& currency,float price) {
         BuyTransaction buyTransaction(gameName, price);
         buyTransaction.execute();
     }
 
-    void AddCredit(float amount) {
-        AddCreditTransaction addCreditTransaction(amount);
+    void AddCredit(float amount, const std::string& currency) {
+        AddCreditTransaction addCreditTransaction(amount, currency);
         addCreditTransaction.execute();
     }
 

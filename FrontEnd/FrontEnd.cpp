@@ -70,10 +70,11 @@ public:
                 transactionProcessor.SellGame("CoolGame", 19.99f);
                 break;
             case 3:
-                transactionProcessor.BuyGame("CoolGame", 19.99f);
+                transactionProcessor.BuyGame("CoolGame", "CAD", 19.99f);
+                transactionProcessor.BuyGame("CoolGameUS", "USD", 19.99f);
                 break;
             case 4:
-                transactionProcessor.AddCredit(100.0f);
+                transactionProcessor.AddCredit(100.0f, "CAD");
                 break;
             case 5:
                 transactionProcessor.RefundGame(19.99f);
