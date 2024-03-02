@@ -93,12 +93,21 @@ private:
     TransactionProcessor transactionProcessor;
 };
 
-int main() {
+int main(int argc, char* argv[]) {
     //simulating the whole project
-    FrontEnd frontEnd;
-    frontEnd.startSession();
-    frontEnd.simulateTransactions();
-    frontEnd.endSession();
+   // FrontEnd frontEnd;
+   // frontEnd.startSession();
+   // frontEnd.simulateTransactions();
+   // frontEnd.endSession();
+    if (argc != 5) {
+    std::cerr << "Usage: " << argv[0] << " currentaccounts.txt availablegames.txt gamescollection.txt transout.atf" << std::endl;
+    return 1;
+    }
+
+    std::string currentAccountsFile = argv[1];
+    std::string availableGamesFile = argv[2];
+    std::string gamesCollectionFile = argv[3];
+    std::string transactionOutputFile = argv[4];
 
     return 0;
 };
