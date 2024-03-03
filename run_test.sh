@@ -43,7 +43,7 @@ for dir in $test_cases_dir/*/; do
         else
             # If files differ, log as failed
             echo "Test case $test_case_name $input_file_name: FAILED" >> "$result_file"
-            diff -B -w "$expected_output" "$actual_output" >> "$result_file"
+            # diff -B -w "$expected_output" "$actual_output" >> "$result_file"
         fi
 
     done
