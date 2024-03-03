@@ -3,4 +3,4 @@ type in Buyer username:
 type in seller username:
   >user321
 type in amount of credit:
-  >500
+

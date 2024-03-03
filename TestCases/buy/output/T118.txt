@@ -1,4 +1,4 @@
 1. Enter username
 2. Successful login as admin-user!
 3. Enter Game Name you wish to purchase:
-4. Error: Street Fighter 6 is sold by you, please select another game to purchase:
+

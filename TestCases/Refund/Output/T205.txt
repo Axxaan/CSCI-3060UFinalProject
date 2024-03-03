@@ -6,4 +6,4 @@ type in amount of credit:
   >500
 
 Transaction couldn't be completed because game 
-is currenlty not in seller's market
+

@@ -7,4 +7,4 @@ type in amount of credit:
 
 Incorrect amounnt of credits was entered
 
-type in amount of credit:
+

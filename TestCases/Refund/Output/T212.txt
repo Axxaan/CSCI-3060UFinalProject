@@ -7,4 +7,4 @@ type in amount of credit:
 
 Please type in a the amount of credits
 
-type in amount of credit:
+

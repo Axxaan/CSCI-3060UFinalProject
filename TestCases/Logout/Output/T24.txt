@@ -8,3 +8,4 @@
    > anotheruser
 6. User deleted successfully.
 7. Successful logout.
+

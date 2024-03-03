@@ -1,4 +1,4 @@
 1. Enter username
 2. Successful login as buy-standard-user!
 3. Enter Game Name you wish to purchase:
-4. Error: Non-Existant Game does not exist please select another game!
+

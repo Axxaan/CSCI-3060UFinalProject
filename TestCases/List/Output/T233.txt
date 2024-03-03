@@ -11,3 +11,4 @@
    - Game2: $24.99
    - Game3: $14.99
 8. Successful logout.
+

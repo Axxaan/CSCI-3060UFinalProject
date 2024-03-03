@@ -1,4 +1,4 @@
 1. Enter username
 2. Successful login as admin-user!
 3. Enter Game Name you wish to purchase:
-4. Error: Avaliable Balance: 50. Street Fighter 6 is 59.99 Please add more credits or select another game!
+
