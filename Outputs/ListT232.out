@@ -1,0 +1,11 @@
+Test case List T232.txt: FAILED
+1,9d0
+< 1. Enter username:
+<    > fullStandardUser
+< 2. Successful login as fullStandardUser!
+< 3. Game List:
+<    - Game1: $19.99
+<    - Game2: $24.99
+<    - Game3: $14.99
+< 4. Successful logout.
+< 

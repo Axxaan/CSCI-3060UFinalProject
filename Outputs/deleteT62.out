@@ -1,0 +1,5 @@
+Test case delete T62.txt: FAILED
+1,3d0
+< Successful admin login!
+< User 'UserWithPendingTransactions' deleted!
+< Pending transactions handled.

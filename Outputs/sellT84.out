@@ -1,0 +1,7 @@
+Test case sell T84.txt: FAILED
+1,5d0
+< 1. Enter username
+< 2. Successful login as sell-standard-user!
+< 3. Succesfully logged out!
+< 4. Enter username
+< 5. Error: Please login before selling a game!

@@ -1,0 +1,5 @@
+Test case sell T63.txt: FAILED
+1,3d0
+< 1. Enter username
+< 2. Successful login as buy-standard-user!
+< 3. Access Denied: Buy-Standard user may not sell games

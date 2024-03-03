@@ -1,0 +1,13 @@
+Test case Refund T210.txt: FAILED
+1,11d0
+< type in Buyer username:
+<   >
+< 
+< Please type in a username
+< 
+< type in buyer username:
+<   >user123
+< type in seller username:
+<   >user321
+< type in amount of credit:
+< 

@@ -1,0 +1,17 @@
+Test case Refund T209.txt: FAILED
+1,15d0
+< type in Buyer username:
+<   >user123
+< type in seller username:
+<   >user321
+< type in amount of credit:
+<   >1000
+< 
+< Transaction successfully completed
+< 
+< type in buyer username:
+<   >user456
+< type in seller username:
+<   >user654
+< type in amount of credit:
+< 

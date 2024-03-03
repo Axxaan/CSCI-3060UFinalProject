@@ -1,0 +1,5 @@
+Test case delete T51.txt: FAILED
+1,3d0
+< Successful admin login!
+< User 'DeletedUser' deleted!
+< No further transactions allowed for 'DeletedUser'.

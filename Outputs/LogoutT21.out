@@ -1,0 +1,10 @@
+Test case Logout T21.txt: FAILED
+1,8d0
+< 1. Enter username:
+<    > user123
+< 2. Successful login as user123!
+< 3. Enter the amount of credit to add:
+<    > 50.00
+< 4. Credit added successfully.
+< 5. Successful logout.
+< 

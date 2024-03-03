@@ -1,0 +1,6 @@
+Test case Login T9.txt: FAILED
+1,4d0
+< 1. Enter username:
+<    > adminUser
+< 2. Error: Admin users cannot perform unprivileged transactions.
+< 

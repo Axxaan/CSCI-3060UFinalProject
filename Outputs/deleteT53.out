@@ -1,0 +1,5 @@
+Test case delete T53.txt: FAILED
+1,3d0
+< Successful admin login!
+< User 'UserToDelete' deleted!
+< Deletion logged in transaction file.

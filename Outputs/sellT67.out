@@ -1,0 +1,7 @@
+Test case sell T67.txt: FAILED
+1,5d0
+< 1. Enter username
+< 2. Successful login as admin-user!
+< 4.Enter Game Name:
+< 5. Street Fighter 6 selected as game name. Enter Price:
+< 6. Succesfull Listing of Street Fighter 6 of 59.99, please restart session to finalize!

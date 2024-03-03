@@ -1,0 +1,5 @@
+Test case delete T61.txt: FAILED
+1,3d0
+< Successful admin login!
+< User 'UserWithActiveSession' deleted!
+< Active sessions terminated.

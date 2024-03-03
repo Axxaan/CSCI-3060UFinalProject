@@ -1,0 +1,9 @@
+Test case Login T3.txt: FAILED
+1,7d0
+< 1. Enter username:
+<    > user123
+< 2. Successful logout.
+< 3. Enter username:
+<    > anotheruser
+< 4. Successful login as anotheruser!
+< 

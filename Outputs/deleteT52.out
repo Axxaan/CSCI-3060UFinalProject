@@ -1,0 +1,5 @@
+Test case delete T52.txt: FAILED
+1,2d0
+< Successful admin login!
+< Deletion confirmation requested for 'UserToDelete'.
+\ No newline at end of file

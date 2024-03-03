@@ -1,0 +1,6 @@
+Test case Login T1.txt: FAILED
+1,4d0
+< 1. Enter username:
+<    > user123
+< 2. Successful login as user123!
+< 
