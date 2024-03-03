@@ -11,6 +11,12 @@ if [ ! -d "$test_cases_dir" ]; then
     exit 1
 fi
 
+# Ensure the 'Outputs' directory exists
+if [ ! -d "$output_dir" ]; then
+    echo "Creating 'Outputs' directory..."
+    mkdir -p "$output_dir"
+fi
+
 # Create or clear results file
 echo "" > "$result_file"
 
@@ -29,7 +35,7 @@ for dir in $test_cases_dir/*/; do
         expected_output="$dir"Output/"${input_file_name%.txt}".txt
         actual_output="$output_dir/${test_case_name}${input_file_name%.txt}.out"
 
-        ./FrontEnd "currentaccounts.txt" "availablegames.txt" "gamescollection.txt" "transout.atf" < "$input_file" > "$actual_output"
+        ./FrontEnd/FrontEnd.exe "currentaccounts.txt" "availablegames.txt" "gamescollection.txt" "transout.atf" < "$input_file" > "$actual_output"
 
         # Compare the actual output with the expected output, ignoring all whitespace and blank lines
         if diff -B -w -q "$expected_output" "$actual_output" > /dev/null; then
