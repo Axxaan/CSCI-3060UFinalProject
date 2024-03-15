@@ -2,3 +2,4 @@
    > user123
 2. Successful logout.
 3. Error: Please log in before attempting transactions.
+

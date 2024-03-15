@@ -1,0 +1,8 @@
+Test case Logout T28.txt: FAILED
+1,6d0
+< 1. Enter username:
+<    > user123
+< 2. Successful login as user123!
+< 3. Error: An error occurred while writing to the file. Please try again.
+< 4. Successful logout.
+< 

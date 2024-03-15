@@ -1,0 +1,13 @@
+Test case Logout T24.txt: FAILED
+1,11d0
+< 1. Enter username:
+<    > adminUser
+< 2. Successful login as adminUser!
+< 3. Enter new username for creating a new user:
+<    > newUser
+< 4. New user created successfully.
+< 5. Enter username to delete:
+<    > anotheruser
+< 6. User deleted successfully.
+< 7. Successful logout.
+< 

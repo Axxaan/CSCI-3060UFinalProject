@@ -1,0 +1,6 @@
+Test case Login T8.txt: FAILED
+1,4d0
+< 1. Enter username:
+<    > nonexistentUser
+< 2. Error: User nonexistentUser does not exist. Please enter a valid username.
+< 

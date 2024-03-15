@@ -1,0 +1,6 @@
+Test case Login T4.txt: FAILED
+1,4d0
+< 1. Enter username:
+<    > user123
+< 2. Error: Privileged transactions are not allowed for standard users.
+< 

@@ -1,0 +1,3 @@
+Test case delete T60.txt: FAILED
+1d0
+< Error: Admin cannot delete own account.

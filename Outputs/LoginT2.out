@@ -1,0 +1,6 @@
+Test case Login T2.txt: FAILED
+1,4d0
+< 1. Enter username:
+<    > user@invalid
+< 2. Error: Invalid characters in the username. Please use only letters and numbers.
+< 

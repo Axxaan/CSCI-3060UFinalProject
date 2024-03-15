@@ -1,0 +1,7 @@
+Test case Login T11.txt: FAILED
+1,5d0
+< 1. Enter username:
+<    > user123
+< 2. Successful logout.
+< 3. Error: Please log in before attempting transactions
+< 

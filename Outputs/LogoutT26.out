@@ -1,0 +1,8 @@
+Test case Logout T26.txt: FAILED
+1,6d0
+< 1. Enter username:
+<    > user123
+< 2. Successful login as user123!
+< 3. Error: Game listing failed. Please try again.
+< 4. Successful logout.
+< 

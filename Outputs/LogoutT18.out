@@ -1,0 +1,8 @@
+Test case Logout T18.txt: FAILED
+1,6d0
+< 1. Enter username:
+<    > user123
+< 2. Successful login as user123!
+< 3. Error: Insufficient funds for the transaction. Please add credit or choose another game.
+< 4. Successful logout.
+< 

@@ -1,0 +1,9 @@
+Test case buy T123.txt: FAILED
+1,7d0
+< 1. Enter username
+< 2. Successful login as buy-standard-user!
+< 3. Enter Game Name you wish to purchase:
+< 4. Street Fighter 6 selected as game name. Enter seller's user:
+< 5. Street Fighter 6 by sell-standard-user purchased for 59.99! Remaining balance 0
+< 6. Enter Game Name you wish to purchase:
+< 

@@ -5,4 +5,4 @@ type in seller username:
 type in amount of credit:
   >9999999
 
-Invalid Amount of Credits
+

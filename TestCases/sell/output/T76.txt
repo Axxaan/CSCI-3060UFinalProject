@@ -3,3 +3,4 @@
 4. Enter Game Name:
 5. Street Fighter 6 selected as game name. Enter Price:
 6. Error: Invalid Price! No more than two decimals allowed! Please try again.
+

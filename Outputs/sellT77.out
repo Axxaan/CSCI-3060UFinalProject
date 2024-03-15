@@ -1,0 +1,7 @@
+Test case sell T77.txt: FAILED
+1,5d0
+< 1. Enter username
+< 2. Successful login as sell-standard-user!
+< 4. Enter Game Name:
+< 5. Street Fighter 6 selected as game name. Enter Price:
+< 6. Successful Listing of Street Fighter 6 of 2.63, please restart session to finalize!

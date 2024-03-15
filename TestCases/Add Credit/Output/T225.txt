@@ -3,4 +3,4 @@ type in amount of Credit:
 
 Please type in a credit amount
 
-type in amount of credit:
+

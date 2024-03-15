@@ -3,3 +3,4 @@
 2. Successful login as user123!
 3. Error: Insufficient funds for the transaction. Please add credit or choose another game.
 4. Successful logout.
+

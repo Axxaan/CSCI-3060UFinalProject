@@ -1,0 +1,6 @@
+Test case sell T64.txt: FAILED
+1,4d0
+< 1. Enter username:
+< 2. Successful login as admin-user!
+< 3. Enter Video Game Name:
+< 4. Invalid Video Game Name: Use ASCII Letters only.

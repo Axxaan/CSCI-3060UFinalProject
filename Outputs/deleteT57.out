@@ -1,0 +1,5 @@
+Test case delete T57.txt: FAILED
+1,3d0
+< Successful admin login!
+< User 'UserToDelete' deleted!
+< Audit trail updated.

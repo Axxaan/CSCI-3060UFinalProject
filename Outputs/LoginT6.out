@@ -1,0 +1,6 @@
+Test case Login T6.txt: FAILED
+1,4d0
+< 1. Enter username:
+<    > user123
+< 2. Error: Another user is already logged in. Please logout first.
+< 

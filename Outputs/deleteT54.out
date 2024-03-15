@@ -1,0 +1,5 @@
+Test case delete T54.txt: FAILED
+1,3d0
+< Successful admin login!
+< User 'UserWithInventory' deleted!
+< All inventory cleared.

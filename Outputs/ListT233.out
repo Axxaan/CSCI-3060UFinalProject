@@ -1,0 +1,16 @@
+Test case List T233.txt: FAILED
+1,14d0
+< 1. Enter username:
+<    > adminUser
+< 2. Successful login as adminUser!
+< 3. (Multiple transactions performed)
+< 4. Successful logout.
+< 5. Enter username:
+<    > adminUser
+< 6. Successful login as adminUser!
+< 7. Game List:
+<    - Game1: $19.99
+<    - Game2: $24.99
+<    - Game3: $14.99
+< 8. Successful logout.
+< 

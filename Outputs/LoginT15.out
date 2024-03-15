@@ -1,0 +1,7 @@
+Test case Login T15.txt: FAILED
+1,5d0
+< 1. System reset successful.
+< 2. Enter username:
+<    > user123
+< 3. Successful login as user123!
+< 

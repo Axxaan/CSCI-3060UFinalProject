@@ -1,0 +1,11 @@
+Test case Refund T205.txt: FAILED
+1,9d0
+< type in Buyer username:
+<   >user123
+< type in seller username:
+<   >user321
+< type in amount of credit:
+<   >500
+< 
+< Transaction couldn't be completed because game 
+< 

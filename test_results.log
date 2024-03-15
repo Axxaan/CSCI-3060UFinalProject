@@ -1,1206 +1,155 @@
 
 Test case Add Credit T225.txt: FAILED
-1,6d0
-< type in amount of Credit:
-<   >(empty)
-< 
-< Please type in a credit amount
-< 
-< type in amount of credit:
-\ No newline at end of file
-Test case List T225.txt: FAILED
-1,8d0
-< 1. Enter username:
-<    > adminUser
-< 2. Successful login as adminUser!
-< 3. Game List:
-<    - Game1: $19.99
-<    - Game2: $24.99
-<    - Game3: $14.99
-< 4. Successful logout.
-Test case List T226.txt: FAILED
-1,8d0
-< 1. Enter username:
-<    > fullStandardUser
-< 2. Successful login as fullStandardUser!
-< 3. Game List:
-<    - Game1: $19.99
-<    - Game2: $24.99
-<    - Game3: $14.99
-< 4. Successful logout.
-Test case List T227.txt: FAILED
-1,8d0
-< 1. Enter username:
-<    > sellStandardUser
-< 2. Successful login as sellStandardUser!
-< 3. Game List:
-<    - Game1: $19.99
-<    - Game2: $24.99
-<    - Game3: $14.99
-< 4. Successful logout.
-Test case List T228.txt: FAILED
-1,8d0
-< 1. Enter username:
-<    > buyStandardUser
-< 2. Successful login as buyStandardUser!
-< 3. Game List:
-<    - Game1: $19.99
-<    - Game2: $24.99
-<    - Game3: $14.99
-< 4. Successful logout.
-Test case List T229.txt: FAILED
-1,10d0
-< 1. Enter username:
-<    > fullStandardUser
-< 2. Successful login as fullStandardUser!
-< 3. Purchased game successfully.
-< 4. Game listed for sale successfully.
-< 5. Game List:
-<    - Game1: $19.99
-<    - Game2: $24.99
-<    - Game3: $14.99
-< 6. Successful logout.
-Test case List T230.txt: FAILED
-1,9d0
-< 1. Enter username:
-<    > adminUser
-< 2. Successful login as adminUser!
-< 3. Refund processed successfully.
-< 4. Game List:
-<    - Game1: $19.99
-<    - Game2: $24.99
-<    - Game3: $14.99
-< 5. Successful logout.
-Test case List T231.txt: FAILED
-1,11d0
-< 1. Enter username:
-<    > adminUser
-< 2. Successful login as adminUser!
-< 3. New user created successfully.
-< 4. User deleted successfully.
-< 5. Credit added successfully.
-< 6. Game List:
-<    - Game1: $19.99
-<    - Game2: $24.99
-<    - Game3: $14.99
-< 7. Successful logout.
-Test case List T232.txt: FAILED
-1,8d0
-< 1. Enter username:
-<    > fullStandardUser
-< 2. Successful login as fullStandardUser!
-< 3. Game List:
-<    - Game1: $19.99
-<    - Game2: $24.99
-<    - Game3: $14.99
-< 4. Successful logout.
-Test case List T233.txt: FAILED
-1,13d0
-< 1. Enter username:
-<    > adminUser
-< 2. Successful login as adminUser!
-< 3. (Multiple transactions performed)
-< 4. Successful logout.
-< 5. Enter username:
-<    > adminUser
-< 6. Successful login as adminUser!
-< 7. Game List:
-<    - Game1: $19.99
-<    - Game2: $24.99
-<    - Game3: $14.99
-< 8. Successful logout.
-Test case Login T1.txt: FAILED
-1,3d0
-< 1. Enter username:
-<    > user123
-< 2. Successful login as user123!
-Test case Login T10.txt: FAILED
-1,6d0
-< 1. Enter username:
-<    > adminUser
-< 2. Successful logout.
-< 3. Enter username:
-<    > user123
-< 4. Successful login as user123!
-Test case Login T11.txt: FAILED
-1,4d0
-< 1. Enter username:
-<    > user123
-< 2. Successful logout.
-< 3. Error: Please log in before attempting transactions
-Test case Login T12.txt: FAILED
-1,6d0
-< 1. Enter username:
-<    > adminUser
-< 2. Successful logout.
-< 3. Enter username:
-<    > adminUser
-< 4. Successful login as adminUser!
-Test case Login T13.txt: FAILED
-1,12d0
-< 1. Enter username:
-<    > wrongUser
-< 2. Error: Incorrect username or account temporarily locked. Please try again later.
-< 3. Enter username:
-<    > wrongUser
-< 4. Error: Incorrect username or account temporarily locked. Please try again later.
-< 5. Enter username:
-<    > wrongUser
-< 6. Error: Incorrect username or account temporarily locked. Please try again later.
-< 7. Enter username:
-<    > wrongUser
-< 8. Error: Account temporarily locked due to consecutive failed login attempts. Please try again later.
-Test case Login T14.txt: FAILED
-1,3d0
-< 1. Enter username:
-<    > user123
-< 2. Error: Another session is already active for user123. Please logout first.
-Test case Login T15.txt: FAILED
-1,4d0
-< 1. System reset successful.
-< 2. Enter username:
-<    > user123
-< 3. Successful login as user123!
-Test case Login T16.txt: FAILED
-1,4d0
-< 1. Enter username:
-<    > user123
-< 2. Successful logout.
-< 3. Error: Please log in before attempting transactions.
-Test case Login T2.txt: FAILED
-1,3d0
-< 1. Enter username:
-<    > user@invalid
-< 2. Error: Invalid characters in the username. Please use only letters and numbers.
-Test case Login T3.txt: FAILED
-1,6d0
-< 1. Enter username:
-<    > user123
-< 2. Successful logout.
-< 3. Enter username:
-<    > anotheruser
-< 4. Successful login as anotheruser!
-Test case Login T4.txt: FAILED
-1,3d0
-< 1. Enter username:
-<    > user123
-< 2. Error: Privileged transactions are not allowed for standard users.
-Test case Login T5.txt: FAILED
-1,6d0
-< 1. Enter username:
-<    > user123
-< 2. Successful logout.
-< 3. Enter username:
-<    > adminUser
-< 4. Successful login as adminUser!
-Test case Login T6.txt: FAILED
-1,3d0
-< 1. Enter username:
-<    > user123
-< 2. Error: Another user is already logged in. Please logout first.
-Test case Login T7.txt: FAILED
-1,3d0
-< 1. Enter username:
-<    > 
-< 2. Error: Please enter a valid username.
-Test case Login T8.txt: FAILED
-1,3d0
-< 1. Enter username:
-<    > nonexistentUser
-< 2. Error: User nonexistentUser does not exist. Please enter a valid username.
-Test case Login T9.txt: FAILED
-1,3d0
-< 1. Enter username:
-<    > adminUser
-< 2. Error: Admin users cannot perform unprivileged transactions.
-Test case Logout T17.txt: FAILED
-1,4d0
-< 1. Enter username:
-<    > user123
-< 2. Successful login as user123!
-< 3. Successful logout.
-Test case Logout T18.txt: FAILED
-1,5d0
-< 1. Enter username:
-<    > user123
-< 2. Successful login as user123!
-< 3. Error: Insufficient funds for the transaction. Please add credit or choose another game.
-< 4. Successful logout.
-Test case Logout T19.txt: FAILED
-1,6d0
-< 1. Enter username:
-<    > user123
-< 2. Successful login as user123!
-< 3. Game listed for sale successfully.
-< 4. Purchased game successfully.
-< 5. Successful logout.
-Test case Logout T20.txt: FAILED
-1,4d0
-< 1. Enter username:
-<    > user123
-< 2. Successful login as user123!
-< 3. Successful logout.
-Test case Logout T21.txt: FAILED
-1,7d0
-< 1. Enter username:
-<    > user123
-< 2. Successful login as user123!
-< 3. Enter the amount of credit to add:
-<    > 50.00
-< 4. Credit added successfully.
-< 5. Successful logout.
-Test case Logout T22.txt: FAILED
-1,6d0
-< 1. Enter username:
-<    > user123
-< 2. Successful login as user123!
-< 3. Game listed for sale successfully.
-< 4. Purchased game successfully.
-< 5. Successful logout.
-Test case Logout T23.txt: FAILED
-1,11d0
-< 1. Enter username:
-<    > user123
-< 2. Successful login as user123!
-< 3. Enter buyer's username:
-<    > anotheruser
-< 4. Enter seller's username:
-<    > user123
-< 5. Enter the amount to refund:
-<    > 20.00
-< 6. Refund processed successfully.
-< 7. Successful logout.
-Test case Logout T24.txt: FAILED
-1,10d0
-< 1. Enter username:
-<    > adminUser
-< 2. Successful login as adminUser!
-< 3. Enter new username for creating a new user:
-<    > newUser
-< 4. New user created successfully.
-< 5. Enter username to delete:
-<    > anotheruser
-< 6. User deleted successfully.
-< 7. Successful logout.
-Test case Logout T25.txt: FAILED
-1,5d0
-< 1. Enter username:
-<    > user123
-< 2. Successful login as user123!
-< 3. Purchased game successfully.
-< 4. Successful logout.
-Test case Logout T26.txt: FAILED
-1,5d0
-< 1. Enter username:
-<    > user123
-< 2. Successful login as user123!
-< 3. Error: Game listing failed. Please try again.
-< 4. Successful logout.
-Test case Logout T27.txt: FAILED
-1,7d0
-< 1. Enter username:
-<    > adminUser
-< 2. Successful login as adminUser!
-< 3. Enter username to delete:
-<    > user123
-< 4. User deleted successfully.
-< 5. Successful logout.
-Test case Logout T28.txt: FAILED
-1,5d0
-< 1. Enter username:
-<    > user123
-< 2. Successful login as user123!
-< 3. Error: An error occurred while writing to the file. Please try again.
-< 4. Successful logout.
-Test case Refund T200.txt: FAILED
-1,6d0
-< type in Buyer username:
-<   >user123
-< type in seller username:
-<   >user321
-< type in amount of credit:
-<   >500
-\ No newline at end of file
-Test case Refund T201.txt: FAILED
-1,7d0
-< type in Buyer username:
-<   >user123
-< type in seller username:
-<   >user321
-< type in amount of credit:
-<   >500
-< 
-Test case Refund T202.txt: FAILED
-1,8d0
-< type in Buyer username:
-<   >user123
-< type in seller username:
-<   >user321
-< type in amount of credit:
-<   >500
-< 
-< Game is not in library
-\ No newline at end of file
-Test case Refund T203.txt: FAILED
-1,4d0
-< type in Buyer username:
-<   >user123
-< 
-< Invalid Buyer Username
-\ No newline at end of file
-Test case Refund T204.txt: FAILED
-1,6d0
-< type in Buyer username:
-<   >user123
-< type in seller username:
-<   >user321
-< 
-< Invalid Seller Username
-\ No newline at end of file
-Test case Refund T205.txt: FAILED
-1,9d0
-< type in Buyer username:
-<   >user123
-< type in seller username:
-<   >user321
-< type in amount of credit:
-<   >500
-< 
-< Transaction couldn't be completed because game 
-< is currenlty not in seller's market
-\ No newline at end of file
-Test case Refund T206.txt: FAILED
-1,8d0
-< type in Buyer username:
-<   >user123
-< type in seller username:
-<   >user321
-< type in amount of credit:
-<   >9999999
-< 
-< Invalid Amount of Credits
-\ No newline at end of file
-Test case Refund T207.txt: FAILED
-1,8d0
-< type in Buyer username:
-<   >user123
-< type in seller username:
-<   >user321
-< type in amount of credit:
-<   >5000
-< 
-< Transaction Failed due to lack of credits form seller
-\ No newline at end of file
-Test case Refund T208.txt: FAILED
-1,6d0
-< type in Buyer username:
-<   >user123
-< type in seller username:
-<   >user321
-< 
-< Seller's account has been deleted
-\ No newline at end of file
-Test case Refund T209.txt: FAILED
-1,15d0
-< type in Buyer username:
-<   >user123
-< type in seller username:
-<   >user321
-< type in amount of credit:
-<   >1000
-< 
-< Transaction successfully completed
-< 
-< type in buyer username:
-<   >user456
-< type in seller username:
-<   >user654
-< type in amount of credit:
-<   >1200
-\ No newline at end of file
-Test case Refund T210.txt: FAILED
-1,11d0
-< type in Buyer username:
-<   >
-< 
-< Please type in a username
-< 
-< type in buyer username:
-<   >user123
-< type in seller username:
-<   >user321
-< type in amount of credit:
-<   >1000
-\ No newline at end of file
-Test case Refund T211.txt: FAILED
-1,12d0
-< type in Buyer username:
-<   >user123
-< type in seller username:
-<   >
-< 
-< Please type in a username
-< 
-< type in seller username:
-<   >user321
-< 
-< type in amount of credit:
-<   >1000
-\ No newline at end of file
-Test case Refund T212.txt: FAILED
-1,10d0
-< type in Buyer username:
-<   >user123
-< type in seller username:
-<   >user321
-< type in amount of credit:
-<   >
-< 
-< Please type in a the amount of credits
-< 
-< type in amount of credit:
-\ No newline at end of file
-Test case Refund T213.txt: FAILED
-1,10d0
-< type in Buyer username:
-<   >user123
-< type in seller username:
-<   >user321
-< type in amount of credit:
-<   >(incorrect amount of credits)
-< 
-< Incorrect amounnt of credits was entered
-< 
-< type in amount of credit:
-\ No newline at end of file
 Test case buy T100.txt: FAILED
-1,5d0
-< 1. Enter username
-< 2. Successful login as buy-standard-user!
-< 3. Enter Game Name you wish to purchase:
-< 4. Street Fighter 6 selected as game name. Enter seller's user:
-< 5. Street Fighter 6 by sell-standard-user purchased for 59.99! Remaining balance 0
-\ No newline at end of file
 Test case buy T101.txt: FAILED
-1,5d0
-< 1. Enter username
-< 2. Successful login as admin-user!
-< 3. Enter Game Name you wish to purchase:
-< 4. Street Fighter 6 selected as game name. Enter seller's user:
-< 5. Street Fighter 6 by sell-standard-user purchased for 59.99! Remaining balance 0
-\ No newline at end of file
 Test case buy T102.txt: FAILED
-1,3d0
-< 1. Enter username
-< 2. Successful login as sell-standard-user!
-< 3. Error: Sell Standard Users are not able to purchase games!
-\ No newline at end of file
 Test case buy T103.txt: FAILED
-1,5d0
-< 1. Enter username
-< 2. Successful login as full-standard-user!
-< 3. Enter Game Name you wish to purchase:
-< 4. Street Fighter 6 selected as game name. Enter seller's user:
-< 5. Street Fighter 6 by sell-standard-user purchased for 59.99! Remaining balance 0
-\ No newline at end of file
 Test case buy T104.txt: FAILED
-1,4d0
-< 1. Enter username
-< 2. Successful login as buy-standard-user!
-< 3. Enter Game Name you wish to purchase:
-< 4. Error: Non-Existant Game does not exist please select another game!
-\ No newline at end of file
 Test case buy T105.txt: FAILED
-1,5d0
-< 1. Enter username
-< 2. Successful login as buy-standard-user!
-< 3. Enter Game Name you wish to purchase:
-< 4. Street Fighter 6 selected as game name. Enter seller's user:
-< 5. Street Fighter 6 by sell-standard-user purchased for 999.99! Remaining balance 0
-\ No newline at end of file
 Test case buy T106.txt: FAILED
-1,5d0
-< 1. Enter username
-< 2. Successful login as buy-standard-user!
-< 3. Enter Game Name you wish to purchase:
-< 4. Street Fighter 6 selected as game name. Enter seller's user:
-< 5. Street Fighter 6 by full-standard-user purchased for 59.99! Remaining balance 0
-\ No newline at end of file
 Test case buy T107.txt: FAILED
-1,5d0
-< 1. Enter username
-< 2. Successful login as buy-standard-user!
-< 3. Enter Game Name you wish to purchase:
-< 4. Street Fighter 6 selected as game name. Enter seller's user:
-< 5. Street Fighter 6 by sell-standard-user purchased for 59.99! Remaining balance 0
-\ No newline at end of file
 Test case buy T108.txt: FAILED
-1,5d0
-< 1. Enter username
-< 2. Successful login as buy-standard-user!
-< 3. Enter Game Name you wish to purchase:
-< 4. Street Fighter 6 selected as game name. Enter seller's user:
-< 5. Street Fighter 6 by admin-user purchased for 59.99! Remaining balance 0
-\ No newline at end of file
 Test case buy T109.txt: FAILED
-1,5d0
-< 1. Enter username
-< 2. Successful login as buy-standard-user!
-< 3. Enter Game Name you wish to purchase:
-< 4. Street Fighter 6123123456 selected as game name. Enter seller's user:
-< 5. Street Fighter 6123123456 by sell-standard-user purchased for 59.99! Remaining balance 0
-\ No newline at end of file
 Test case buy T110.txt: FAILED
-1,5d0
-< 1. Enter username
-< 2. Successful login as buy-standard-user!
-< 3. Enter Game Name you wish to purchase:
-< 4. Street Fighter 6 selected as game name. Enter seller's user:
-< 5. Street Fighter 6 by sell-standard-user purchased for 3.53! Remaining balance 0
-\ No newline at end of file
 Test case buy T111.txt: FAILED
-1,5d0
-< 1. Enter username
-< 2. Successful login as buy-standard-user!
-< 3. Enter Game Name you wish to purchase:
-< 4. Street Fighter 6 selected as game name. Enter seller's user:
-< 5. Street Fighter 6 by sell-standard-user purchased for 44.21! Remaining balance 0
-\ No newline at end of file
 Test case buy T112.txt: FAILED
-1,5d0
-< 1. Enter username
-< 2. Successful login as buy-standard-user!
-< 3. Enter Game Name you wish to purchase:
-< 4. Street Fighter 6 selected as game name. Enter seller's user:
-< 5. Street Fighter 6 by sell-standard-user purchased for 4! Remaining balance 0
-\ No newline at end of file
-Test case buy T113.txt: FAILED
-1d0
-< Error: Please login before purchasing a game!
-\ No newline at end of file
+Test case buy T113.txt: PASSED
 Test case buy T114.txt: FAILED
-1,4d0
-< 1. Enter username
-< 2. Successful login as buy-standard-user!
-< 3. Enter Game Name you wish to purchase:
-< 4. Error: Avaliable Balance: 50. Street Fighter 6 is 59.99 Please add more credits or select another game!
-\ No newline at end of file
 Test case buy T115.txt: FAILED
-1,4d0
-< 1. Enter username
-< 2. Successful login as admin-user!
-< 3. Enter Game Name you wish to purchase:
-< 4. Error: Avaliable Balance: 50. Street Fighter 6 is 59.99 Please add more credits or select another game!
-\ No newline at end of file
 Test case buy T116.txt: FAILED
-1,3d0
-< 1. Enter username
-< 2. Successful login as sell-standard-user!
-< 3. Error: Sell Standard Users are not able to purchase games!
-\ No newline at end of file
 Test case buy T117.txt: FAILED
-1,4d0
-< 1. Enter username
-< 2. Successful login as full-standard-user!
-< 3. Enter Game Name you wish to purchase:
-< 4. Error: Avaliable Balance: 50. Street Fighter 6 is 59.99 Please add more credits or select another game!
-\ No newline at end of file
 Test case buy T118.txt: FAILED
-1,4d0
-< 1. Enter username
-< 2. Successful login as admin-user!
-< 3. Enter Game Name you wish to purchase:
-< 4. Error: Street Fighter 6 is sold by you, please select another game to purchase:
-\ No newline at end of file
 Test case buy T119.txt: FAILED
-1,5d0
-< 1. Enter username
-< 2. Successful login as buy-standard-user!
-< 3. Enter Game Name you wish to purchase:
-< 4. Street Fighter 6 selected as game name. Enter seller's user:
-< 5. Street Fighter 6 by sell-standard-user purchased for 59.99! Remaining balance 0
-\ No newline at end of file
 Test case buy T120.txt: FAILED
-1,5d0
-< 1. Enter username
-< 2. Successful login as buy-standard-user!
-< 3. Enter Game Name you wish to purchase:
-< 4. Street Fighter 6 selected as game name. Enter seller's user:
-< 5. Street Fighter 6 by sell-standard-user purchased for 59.99! Remaining balance 0
-\ No newline at end of file
 Test case buy T121.txt: FAILED
-1,11d0
-< 1. Enter username
-< 2. Successful login as buy-standard-user!
-< 3. Enter Game Name you wish to purchase:
-< 4. Street Fighter 6 selected as game name. Enter seller's user:
-< 5. Street Fighter 6 by sell-standard-user purchased for 59.99! Remaining balance 0
-< 6. Successfully logged out!
-< 7. Enter username
-< 8. Successful login as admin-user!
-< 9. Enter Game Name you wish to purchase:
-< 10. Street Fighter 6 selected as game name. Enter seller's user:
-< 11. Street Fighter 6 by sell-standard-user purchased for 59.99! Remaining balance 0
-\ No newline at end of file
 Test case buy T122.txt: FAILED
-1,4d0
-< 1. Enter username
-< 2. Successful login as buy-standard-user!
-< 3. Enter Game Name you wish to purchase:
-< 4. Error: Street Fighter 6 already exist's within your library! Please select another game!
-\ No newline at end of file
 Test case buy T123.txt: FAILED
-1,7d0
-< 1. Enter username
-< 2. Successful login as buy-standard-user!
-< 3. Enter Game Name you wish to purchase:
-< 4. Street Fighter 6 selected as game name. Enter seller's user:
-< 5. Street Fighter 6 by sell-standard-user purchased for 59.99! Remaining balance 0
-< 6. Enter Game Name you wish to purchase:
-< 7. Error: Street Fighter 6 already exist's within your library! Please select another game!
-\ No newline at end of file
 Test case buy T124.txt: FAILED
-1,8d0
-< 1. Enter username
-< 2. Successful login as buy-standard-user!
-< 3. Enter Game Name you wish to purchase:
-< 4. Street Fighter 6 selected as game name. Enter seller's user:
-< 5. Street Fighter 6 by sell-standard-user purchased for 59.99! Remaining balance 59.99
-< 6. Enter Game Name you wish to purchase:
-< 7. Street Fighter 5 selected as game name. Enter seller's user:
-< 8. Street Fighter 5 by sell-standard-user purchased for 59.99 Remaining balance 0
-\ No newline at end of file
 Test case buy T125.txt: FAILED
-1,6d0
-< 1. Enter username
-< 2. Successful login as buy-standard-user!
-< 3. Enter Game Name you wish to purchase:
-< 4. Street Fighter 6 selected as game name. Enter seller's user:
-< 5. Street Fighter 6 by sell-standard-user purchased for 59.99! Remaining balance 0
-< 6. Street Fighter 6 by sell-standard-user in collection of buy-standard-user
-\ No newline at end of file
 Test case buy T126.txt: FAILED
-1,5d0
-< 1. Enter username
-< 2. Successful login as admin!
-< 3. Enter Game Name you wish to purchase:
-< 4. Street Fighter 6 selected as game name. Enter seller's user:
-< 5. Street Fighter 6 by sell-standard-user purchased for 0000! Remaining balance 59.99
-\ No newline at end of file
 Test case buy T127.txt: FAILED
-1,5d0
-< 1. Enter username
-< 2. Successful login as full-standard-user!
-< 3. Enter Game Name you wish to purchase:
-< 4. Street Fighter 6 selected as game name. Enter seller's user:
-< 5. Street Fighter 6 by sell-standard-user purchased for 0! Remaining balance 59.99
-\ No newline at end of file
 Test case buy T128.txt: FAILED
-1,5d0
-< 1. Enter username
-< 2. Successful login as buy-standard-user!
-< 3. Enter Game Name you wish to purchase:
-< 4. Street Fighter 6 selected as game name. Enter seller's user:
-< 5. Street Fighter 6 by sell-standard-user purchased for 0000! Remaining balance: 59.99
-\ No newline at end of file
 Test case buy T129.txt: FAILED
-1,3d0
-< 1. Enter username
-< 2. Successful login as buy-standard-user!
-< 3. Error: Sell-Standard users may not purchase games!
-\ No newline at end of file
 Test case buy T130.txt: FAILED
-1,10d0
-< 1. Enter username
-< 2. Successful login as buy-standard-user!
-< 3. 
-<     Street Fighter 6
-<     Game 2
-<     Game 3
-<     Street Fighter 5
-< 4. Enter Game Name you wish to purchase:
-< 5. Street Fighter 6 selected as game name. Enter seller's user:
-< 6. Street Fighter 6 by full-standard-user purchased for 59.99! Remaining balance 0
-\ No newline at end of file
 Test case buy T94.txt: FAILED
-1,3d0
-< 1. Enter username
-< 2. Successful login as sell-standard-user!
-< 3. Erorr: sell-standard users may not purchase games!
-\ No newline at end of file
 Test case buy T95.txt: FAILED
-1,6d0
-< 1. Enter username
-< 2. Successful login as buy-standard-user!
-< 3. Enter Game Name you wish to purchase:
-< 4. Street Fighter 6 selected as game name. Enter seller's user:
-< 5. Street Fighter 6 by sell-standard-user purchased for 59.99! Remaining balance 0
-< 6. Successfuly logged out!
-\ No newline at end of file
 Test case buy T96.txt: FAILED
-1,4d0
-< 1. Enter username
-< 2. Successful login as full-standard-user!
-< 3. Enter Game Name you wish to purchase:
-< 4. Error: Street Fighter 6 is sold by you, please select another game to purchase:
-\ No newline at end of file
 Test case buy T97.txt: FAILED
-1,5d0
-< 1. Enter username
-< 2. Successful login as admin-user!
-< 3. Enter Game Name you wish to purchase:
-< 4. Street Fighter 6 selected as game name. Enter seller's user:
-< 5. Street Fighter 6 by sell-standard-user purchased for 59.99! Remaining balance 0
-\ No newline at end of file
 Test case buy T98.txt: FAILED
-1,5d0
-< 1. Enter username
-< 2. Successful login as buy-standard-user!
-< 3. Enter Game Name you wish to purchase:
-< 4. Street Fighter 6 selected as game name. Enter seller's user:
-< 5. Street Fighter 6 by sell-standard-user purchased for 59.99! Remaining balance 0
-\ No newline at end of file
 Test case buy T99.txt: FAILED
-1,4d0
-< 1. Enter username
-< 2. Successful login as buy-standard-user!
-< 3. Enter Game Name you wish to purchase:
-< 4. Error: Avaliable Balance: 50. Street Fighter 6 is 59.99 Please add more credits or select another game!
-\ No newline at end of file
 Test case create T29.txt: FAILED
-1,3d0
-< Successful login as admin!
-< Enter username to create:
-< Unique username 'UniqueUsername' created successfully!
-\ No newline at end of file
 Test case create T30.txt: FAILED
-1,3d0
-< Successful login as admin!
-< Enter username and credit:
-< User with maximum credit 'MaxCreditUser' created successfully!
-\ No newline at end of file
 Test case create T31.txt: FAILED
-1,3d0
-< Successful login as admin!
-< Enter username and credit:
-< Error: Invalid credit amount for 'InvalidCreditUser'.
-\ No newline at end of file
 Test case create T32.txt: FAILED
-1,2d0
-< Login as 'StandardUser' successful!
-< Error: Only admin can create new users.
-\ No newline at end of file
 Test case create T33.txt: FAILED
-1,3d0
-< Successful login as admin!
-< Enter username:
-< Error: Username cannot contain spaces.
-\ No newline at end of file
 Test case create T34.txt: FAILED
-1,3d0
-< Successful login as admin!
-< Enter username:
-< Error: Username must be alphanumeric.
-\ No newline at end of file
 Test case create T35.txt: FAILED
-1,3d0
-< Successful login as admin!
-< Enter username:
-< Case-sensitive username 'CaseSensitiveUser' created successfully!
-\ No newline at end of file
 Test case create T36.txt: FAILED
-1,3d0
-< Successful login as admin!
-< Enter username and user type:
-< Buy-standard user 'BuyUser' created successfully!
-\ No newline at end of file
 Test case create T37.txt: FAILED
-1,3d0
-< Successful login as admin!
-< Enter username and user type:
-< Sell-standard user 'SellUser' created successfully!
-\ No newline at end of file
 Test case create T38.txt: FAILED
-1,3d0
-< Successful login as admin!
-< Enter username:
-< Error: Username is required.
-\ No newline at end of file
 Test case create T39.txt: FAILED
-1,3d0
-< Successful login as admin!
-< Enter username:
-< User 'u' created successfully!
-\ No newline at end of file
 Test case create T40.txt: FAILED
-1,3d0
-< Successful login as admin!
-< Enter username and credit:
-< Error: Credit must be a whole number.
-\ No newline at end of file
 Test case create T41.txt: FAILED
-1,2d0
-< Error: Not logged in.
-< Login as admin to create users.
-\ No newline at end of file
 Test case create T42.txt: FAILED
-1,3d0
-< Successful login as admin!
-< Enter username and credit:
-< User 'User' created with initial credit!
-\ No newline at end of file
 Test case create T43.txt: FAILED
-1,3d0
-< Successful login as admin!
-< Enter username:
-< User '15CharactersUsr' created successfully!
-\ No newline at end of file
 Test case create T44.txt: FAILED
-1,3d0
-< Successful login as admin!
-< Enter username and user type:
-< Admin user 'AdminUser' created successfully!
-\ No newline at end of file
 Test case create T45.txt: FAILED
-1,3d0
-< Successful login as admin!
-< Enter username and user type:
-< Full-standard user 'FullUser' created successfully!
-\ No newline at end of file
 Test case create T46.txt: FAILED
-1,3d0
-< Successful login as admin!
-< Enter username:
-< Error: Username exceeds maximum length.
-\ No newline at end of file
 Test case create T47.txt: FAILED
-1,3d0
-< Successful login as admin!
-< Enter username:
-< User 'NewUser' creation logged successfully!
-\ No newline at end of file
 Test case create T48.txt: FAILED
-1,3d0
-< Successful login as admin!
-< Enter username and user type:
-< User 'User' with specified type 'Type' created successfully!
-\ No newline at end of file
 Test case delete T49.txt: FAILED
-1,2d0
-< Successful admin login!
-< User 'UserToDelete' deleted successfully!
-\ No newline at end of file
 Test case delete T50.txt: FAILED
-1,2d0
-< Successful admin login!
-< User 'ExistingNonLoggedInUser' exists and deleted successfully!
-\ No newline at end of file
 Test case delete T51.txt: FAILED
-1,3d0
-< Successful admin login!
-< User 'DeletedUser' deleted!
-< No further transactions allowed for 'DeletedUser'.
-\ No newline at end of file
 Test case delete T52.txt: FAILED
-1,2d0
-< Successful admin login!
-< Deletion confirmation requested for 'UserToDelete'.
-\ No newline at end of file
 Test case delete T53.txt: FAILED
-1,3d0
-< Successful admin login!
-< User 'UserToDelete' deleted!
-< Deletion logged in transaction file.
-\ No newline at end of file
 Test case delete T54.txt: FAILED
-1,3d0
-< Successful admin login!
-< User 'UserWithInventory' deleted!
-< All inventory cleared.
-\ No newline at end of file
 Test case delete T55.txt: FAILED
-1,3d0
-< Successful admin login!
-< User 'DeletedUser' deleted!
-< New user 'DeletedUser' created successfully!
-\ No newline at end of file
 Test case delete T56.txt: FAILED
-1,2d0
-< Successful admin login!
-< Multiple users deleted sequentially!
-\ No newline at end of file
 Test case delete T57.txt: FAILED
-1,3d0
-< Successful admin login!
-< User 'UserToDelete' deleted!
-< Audit trail updated.
-\ No newline at end of file
 Test case delete T58.txt: FAILED
-1,3d0
-< Successful admin login!
-< Please enter username for deletion:
-< Username accepted.
-\ No newline at end of file
 Test case delete T59.txt: FAILED
-1,2d0
-< Successful admin login!
-< Error: 'NonExistentUser' does not exist.
-\ No newline at end of file
 Test case delete T60.txt: FAILED
-1d0
-< Error: Admin cannot delete own account.
-\ No newline at end of file
 Test case delete T61.txt: FAILED
-1,3d0
-< Successful admin login!
-< User 'UserWithActiveSession' deleted!
-< Active sessions terminated.
-\ No newline at end of file
 Test case delete T62.txt: FAILED
-1,3d0
-< Successful admin login!
-< User 'UserWithPendingTransactions' deleted!
-< Pending transactions handled.
-\ No newline at end of file
+Test case List T225.txt: FAILED
+Test case List T226.txt: FAILED
+Test case List T227.txt: FAILED
+Test case List T228.txt: FAILED
+Test case List T229.txt: FAILED
+Test case List T230.txt: FAILED
+Test case List T231.txt: FAILED
+Test case List T232.txt: FAILED
+Test case List T233.txt: FAILED
+Test case Login T1.txt: FAILED
+Test case Login T10.txt: FAILED
+Test case Login T11.txt: FAILED
+Test case Login T12.txt: FAILED
+Test case Login T13.txt: FAILED
+Test case Login T14.txt: FAILED
+Test case Login T15.txt: FAILED
+Test case Login T16.txt: FAILED
+Test case Login T2.txt: FAILED
+Test case Login T3.txt: FAILED
+Test case Login T4.txt: FAILED
+Test case Login T5.txt: FAILED
+Test case Login T6.txt: FAILED
+Test case Login T7.txt: FAILED
+Test case Login T8.txt: FAILED
+Test case Login T9.txt: FAILED
+Test case Logout T17.txt: FAILED
+Test case Logout T18.txt: FAILED
+Test case Logout T19.txt: FAILED
+Test case Logout T20.txt: FAILED
+Test case Logout T21.txt: FAILED
+Test case Logout T22.txt: FAILED
+Test case Logout T23.txt: FAILED
+Test case Logout T24.txt: FAILED
+Test case Logout T25.txt: FAILED
+Test case Logout T26.txt: FAILED
+Test case Logout T27.txt: FAILED
+Test case Logout T28.txt: FAILED
+Test case Refund T200.txt: FAILED
+Test case Refund T201.txt: FAILED
+Test case Refund T202.txt: FAILED
+Test case Refund T203.txt: FAILED
+Test case Refund T204.txt: FAILED
+Test case Refund T205.txt: FAILED
+Test case Refund T206.txt: FAILED
+Test case Refund T207.txt: FAILED
+Test case Refund T208.txt: FAILED
+Test case Refund T209.txt: FAILED
+Test case Refund T210.txt: FAILED
+Test case Refund T211.txt: FAILED
+Test case Refund T212.txt: FAILED
+Test case Refund T213.txt: FAILED
 Test case sell T63.txt: FAILED
-1,3d0
-< 1. Enter username
-< 2. Successful login as buy-standard-user!
-< 3. Access Denied: Buy-Standard user may not sell games
-\ No newline at end of file
 Test case sell T64.txt: FAILED
-1,4d0
-< 1. Enter username:
-< 2. Successful login as admin-user!
-< 3. Enter Video Game Name:
-< 4. Invalid Video Game Name: Use ASCII Letters only.
-\ No newline at end of file
 Test case sell T65.txt: FAILED
-1,8d0
-< 1. Enter username
-< 2. Successful login as admin-user!
-< 3.
-<     Game 1
-<     Game 2
-< 4.Enter Game Name:
-< 5. Street Fighter 6 selected as game name. Enter Price:
-< 6. Succesfull Listing of Street Fighter 6 of 59.99, please restart session to finalize!
-\ No newline at end of file
 Test case sell T66.txt: FAILED
-1,7d0
-< 1. Enter username
-< 2. Successful login as admin-user!
-< 4.Enter Game Name:
-< 5. Street Fighter 6 selected as game name. Enter Price:
-< 6. Succesfull Listing of Street Fighter 6 of 59.99, please restart session to finalize!
-< 7. Enter Game Name:
-< 8. Invalid! Steet Fighter 6 is already taken! Please try another name
-\ No newline at end of file
 Test case sell T67.txt: FAILED
-1,5d0
-< 1. Enter username
-< 2. Successful login as admin-user!
-< 4.Enter Game Name:
-< 5. Street Fighter 6 selected as game name. Enter Price:
-< 6. Succesfull Listing of Street Fighter 6 of 59.99, please restart session to finalize!
-\ No newline at end of file
 Test case sell T68.txt: FAILED
-1,5d0
-< 1. Enter username
-< 2. Successful login as full-standard-user!
-< 4.Enter Game Name:
-< 5. Street Fighter 6 selected as game name. Enter Price:
-< 6. Succesfull Listing of Street Fighter 6 of 59.99, please restart session to finalize!
-\ No newline at end of file
 Test case sell T69.txt: FAILED
-1d0
-< Invalid! Please login before selling!
-\ No newline at end of file
 Test case sell T70.txt: FAILED
-1,5d0
-< 1. Enter username
-< 2. Successful login as admin-user!
-< 4.Enter Game Name:
-< 5. Street Fighter 6123123456 selected as game name. Enter Price:
-< 6. Succesfull Listing of Street Fighter 6123123456 of 59.99, please restart session to finalize!
-\ No newline at end of file
 Test case sell T71.txt: FAILED
-1,4d0
-< 1. Enter username
-< 2. Successful login as admin-user!
-< 4.Enter Game Name:
-< 5. Error: Street Fighter 61231234561 exceeds the maximum allowed lenght of 25 letters, Try again!
-\ No newline at end of file
 Test case sell T72.txt: FAILED
-1,5d0
-< 1. Enter username
-< 2. Successful login as sell-standard-user!
-< 4.Enter Game Name:
-< 5. Street Fighter 6 selected as game name. Enter Price:
-< 6. Succesfull Listing of Street Fighter 6 of 59.99, please restart session to finalize!
-\ No newline at end of file
 Test case sell T73.txt: FAILED
-1,5d0
-< 1. Enter username
-< 2. Successful login as sell-standard-user!
-< 4.Enter Game Name:
-< 5. Street Fighter 6 selected as game name. Enter Price:
-< 6. Error: Invalid Price! Only a maximum of 999.99 is allowed. Please try again!
-\ No newline at end of file
 Test case sell T74.txt: FAILED
-1,5d0
-< 1. Enter username
-< 2. Successful login as sell-standard-user!
-< 4.Enter Game Name:
-< 5. Street Fighter 6 selected as game name. Enter Price:
-< 6. Succesfull Listing of Street Fighter 6 of 999.99, please restart session to finalize!
-\ No newline at end of file
 Test case sell T75.txt: FAILED
-1,5d0
-< 1. Enter username
-< 2. Successful login as sell-standard-user!
-< 4.Enter Game Name:
-< 5. Street Fighter 6 selected as game name. Enter Price:
-< 6. Error: Invalid Price! Numbers only, please try again!
-\ No newline at end of file
 Test case sell T76.txt: FAILED
-1,5d0
-< 1. Enter username
-< 2. Successful login as sell-standard-user!
-< 4. Enter Game Name:
-< 5. Street Fighter 6 selected as game name. Enter Price:
-< 6. Error: Invalid Price! No more than two decimals allowed! Please try again.
 Test case sell T77.txt: FAILED
-1,5d0
-< 1. Enter username
-< 2. Successful login as sell-standard-user!
-< 4. Enter Game Name:
-< 5. Street Fighter 6 selected as game name. Enter Price:
-< 6. Successful Listing of Street Fighter 6 of 2.63, please restart session to finalize!
-\ No newline at end of file
 Test case sell T78.txt: FAILED
-1,5d0
-< 1. Enter username
-< 2. Successful login as sell-standard-user!
-< 4. Enter Game Name:
-< 5. Street Fighter 6 selected as game name. Enter Price:
-< 6. Successful Listing of Street Fighter 6 of 59.99, please restart session to finalize!
-\ No newline at end of file
 Test case sell T79.txt: FAILED
-1,5d0
-< 1. Enter username
-< 2. Successful login as sell-standard-user!
-< 4. Enter Game Name:
-< 5. Street Fighter 6 selected as game name. Enter Price:
-< 6. Successful Listing of Street Fighter 6 of 4.00, please restart session to finalize!
-\ No newline at end of file
 Test case sell T80.txt: FAILED
-1,4d0
-< 1. Enter username
-< 2. Successful login as sell-standard-user!
-< 4. Enter Game Name:
-< 5. Street Fighter 6 selected as game name. Enter Price:
 Test case sell T81.txt: FAILED
-1,5d0
-< 1. Enter username
-< 2. Successful login as sell-standard-user!
-< 4. Enter Game Name:
-< 5. Street Fighter 6 selected as game name. Enter Price:
-< 6. Successful Listing of Street Fighter 6 of 59.99, please restart session to finalize!
-\ No newline at end of file
 Test case sell T82.txt: FAILED
-1,6d0
-< 1. Enter username
-< 2. Successful login as admin-user!
-< 4. Enter Game Name:
-< 5. Street Fighter 6 selected as game name. Enter Price:
-< 6. Successful Listing of Street Fighter 6 of 59.99, please restart session to finalize!
-< 7. Street Fighter 6, 59.99 by admin-user logged into TransactionFile
-\ No newline at end of file
 Test case sell T83.txt: FAILED
-1,2d0
-< 1. Enter username
-< 2. Error: Please login before selling a game!
-\ No newline at end of file
 Test case sell T84.txt: FAILED
-1,5d0
-< 1. Enter username
-< 2. Successful login as sell-standard-user!
-< 3. Succesfully logged out!
-< 4. Enter username
-< 5. Error: Please login before selling a game!
-\ No newline at end of file
 Test case sell T85.txt: FAILED
-1,4d0
-< 1. Enter username
-< 2. Successful login as sell-standard-user!
-< 3. Enter Game Name:
-< 4. Error: No name selected, please try again.
-\ No newline at end of file
 Test case sell T86.txt: FAILED
-1,5d0
-< 1. Enter username
-< 2. Successful login as sell-standard-user!
-< 3. Enter Game Name:
-< 4. Street Fighter 6 selected as game name. Enter Price:
-< 5. Successful Listing of Street Fighter 6 of 59.99, please restart session to finalize!
-\ No newline at end of file
 Test case sell T87.txt: FAILED
-1,7d0
-< 1. Enter username
-< 2. Successful login as sell-standard-user!
-< 3. Enter Game Name:
-< 4. Street Fighter 6 selected as game name. Enter Price:
-< 5. Successful Listing of Street Fighter 6 of 59.99, please restart session to finalize!
-< 6. Enter Game: 
-< 7. Erorr: street fighter 6 is already taken, please try again
-\ No newline at end of file
 Test case sell T88.txt: FAILED
-1,4d0
-< 1. Enter username
-< 2. Successful login as sell-standard-user!
-< 3. Enter Game Name:
-< 4. Error: Invalid Game Name! Please use ASCII only!
-\ No newline at end of file
 Test case sell T89.txt: FAILED
-1,5d0
-< 1. Enter username
-< 2. Successful login as sell-standard-user!
-< 3. Enter Game Name:
-< 4. Street Fighter 6 selected as game name. Enter Price:
-< 5. Successful Listing of Street Fighter 6 for 00.00, please restart session to finalize!
-\ No newline at end of file
 Test case sell T90.txt: FAILED
-1,5d0
-< 1. Enter username
-< 2. Successful login as sell-standard-user!
-< 3. Enter Game Name:
-< 4. Street Fighter 6 selected as game name. Enter Price:
-< 5. Successful Listing of Street Fighter 6 of 901.53, please restart session to finalize!
-\ No newline at end of file
 Test case sell T91.txt: FAILED
-1,6d0
-< 1. Enter username
-< 2. Successful login as admin-user!
-< 3. Enter Game Name:
-< 4. Street Fighter 6 selected as game name. Enter Price:
-< 5. Successful Listing of Street Fighter 6 of 5.00, please restart session to finalize!
-< 6. Street Fighter 6, 5.00 from admin-user
-\ No newline at end of file
 Test case sell T92.txt: FAILED
-1,6d0
-< 1. Enter username
-< 2. Successful login as admin-user!
-< 3. Enter Game Name:
-< 4. Street Fighter 6 selected as game name. Enter Price:
-< 5. Successful Listing of Street Fighter 6 of 0, please restart session to finalize!
-< 6. Street Fighter 6 for 0000 from admin-user
-\ No newline at end of file
 Test case sell T93.txt: FAILED
-1,5d0
-< 1. Enter username
-< 2. Successful login as sell-standard-user!
-< 3. Enter Game Name:
-< 4. Street Fighter 6 selected as game name. Enter Price:
-< 5. Successful Listing of Street Fighter 6 of 0, please restart session to finalize!
-\ No newline at end of file

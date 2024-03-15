@@ -1,0 +1,8 @@
+Test case Refund T200.txt: FAILED
+1,6d0
+< type in Buyer username:
+<   >user123
+< type in seller username:
+<   >user321
+< type in amount of credit:
+< 

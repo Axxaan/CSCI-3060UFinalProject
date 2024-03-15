@@ -1,2 +1,2 @@
 Login as 'StandardUser' successful!
-Error: Only admin can create new users.
+

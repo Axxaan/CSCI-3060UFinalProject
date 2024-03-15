@@ -1,0 +1,8 @@
+Test case sell T76.txt: FAILED
+1,6d0
+< 1. Enter username
+< 2. Successful login as sell-standard-user!
+< 4. Enter Game Name:
+< 5. Street Fighter 6 selected as game name. Enter Price:
+< 6. Error: Invalid Price! No more than two decimals allowed! Please try again.
+< 

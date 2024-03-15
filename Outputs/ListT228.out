@@ -1,0 +1,11 @@
+Test case List T228.txt: FAILED
+1,9d0
+< 1. Enter username:
+<    > buyStandardUser
+< 2. Successful login as buyStandardUser!
+< 3. Game List:
+<    - Game1: $19.99
+<    - Game2: $24.99
+<    - Game3: $14.99
+< 4. Successful logout.
+< 
