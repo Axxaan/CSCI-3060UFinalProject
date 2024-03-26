@@ -1,0 +1,12 @@
+new_user__seller__50.00
+user1__seller__50.00
+new_user1__buyer__100.00
+new_user2__buyer__100.00
+new_user__seller__-50.00
+new_user__invalid_type__50.00
+new_user__seller__50.00
+user1__seller__50.00
+new_user1__buyer__100.00
+new_user2__buyer__100.00
+new_user__seller__-50.00
+new_user__invalid_type__50.00
