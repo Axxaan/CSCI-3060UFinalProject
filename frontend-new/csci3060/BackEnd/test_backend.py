@@ -5,6 +5,35 @@ from GameManager import GameManager
 from TransactionProcessor import TransactionProcessor
 from FileManager import FileManager
 
+# Existing test case
+def test_merge_daily_transactions(tmpdir):
+    daily_transactions_folder = tmpdir.mkdir("daily_transactions")
+    output_folder = tmpdir.mkdir("output")
+
+    # Create dummy transaction files
+    for i in range(3):
+        file = daily_transactions_folder.join(f"daily_transaction_{i}.txt")
+        file.write(f"Transaction {i}\n")
+
+    FileManager.merge_daily_transactions(str(daily_transactions_folder), str(output_folder))
+
+    merged_file_path = os.path.join(str(output_folder), "merged_daily_transactions.txt")
+    with open(merged_file_path, 'r') as merged_file:
+        content = merged_file.read()
+
+    assert content == "Transaction 0\nTransaction 1\nTransaction 2\n"
+
+# New test case for path when there are no daily transaction files
+def test_empty_merge_daily_transactions(tmpdir):
+    daily_transactions_folder = tmpdir.mkdir("daily_transactions")
+    output_folder = tmpdir.mkdir("output")
+    FileManager.merge_daily_transactions(str(daily_transactions_folder), str(output_folder))
+    merged_file_path = os.path.join(str(output_folder), "merged_daily_transactions.txt")
+    with open(merged_file_path, 'r') as merged_file:
+        content = merged_file.read()
+    assert content == ""
+    
+
 def test_merge_daily_transactions(tmpdir):
     daily_transactions_folder = tmpdir.mkdir("daily_transactions")
     output_folder = tmpdir.mkdir("output")
