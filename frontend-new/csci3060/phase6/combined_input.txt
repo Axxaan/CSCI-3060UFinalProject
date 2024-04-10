@@ -1,0 +1,498 @@
+./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_addcredit_aa_exceed_credit_fail.txt
+login
+admin1
+addcredit
+buyusermaxed
+10
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_addcredit_aa_maxcredit_fail.txt
+login
+admin1
+addcredit
+fsuser01
+1001
+logout
+./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_addcredit_aa_max_session_amount_exceeded.txt
+login
+admin1
+addcredit 
+admin1
+991
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_addcredit_aa_negative_credit_fail.txt
+login
+admin1
+addcredit
+fsuser01
+-10
+logout
+./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_addcredit_aa_non_number_fail.txt
+login
+admin1
+addcredit
+fsuser01
+sixty
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_addcredit_aa_success.txt
+login
+admin1
+addcredit
+fsuser03
+20
+logout
+./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_addcredit_aa_username_not_found_fail.txt
+login
+admin1
+addcredit
+madeupuser
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_addcredit_aa_zero_credit_fail.txt
+login
+admin1
+addcredit
+fsuser01
+0
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_addcredit_bs_max_credit_fail.txt
+login
+bsuser01
+addcredit
+1001
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_addcredit_bs_max_session_exceeded_fail.txt
+login
+bsuser01
+addcredit
+991
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_addcredit_bs_negative_credit_fail.txt
+login
+bsuser01
+addcredit
+-10
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_addcredit_bs__non_number_fail.txt
+login
+bsuser01
+addcredit
+fifty
+logout
+./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_addcredit_bs_success.txt
+login
+bsuser01
+addcredit
+60
+logout
+./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_addcredit_bs_zero_credit_fail.txt
+login
+bsuser01
+addcredit
+0
+logout
+./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_addcredit_fs_exceed_credit_fail.txt
+login
+fullusermaxed
+addcredit
+1
+logout
+./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_addcredit_fs_max_credit_fail.txt
+login
+fsuser01
+addcredit
+1001
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_addcredit_fs_max_session_exceeded_fail.txt
+login
+fsuser01
+addcredit 
+991
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_addcredit_fs_negative_credit_fail.txt
+login
+fsuser01
+addcredit
+-60
+logout
+./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_addcredit_fs_non_number_fail.txt
+login
+fsuser01
+addcredit
+thirty
+logout
+./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_addcredit_fs_success.txt
+login
+fsuser02
+addcredit
+90
+logout
+./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_addcredit_fs_zero_credit_fail.txt
+login
+fsuser01
+addcredit
+0
+logout
+./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_addcredit_ss_exceed_credit_fail.txt
+login
+sellusermaxed
+addcredit
+10
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_addcredit_ss_max_credit_fail.txt
+login
+ssuser01
+addcredit
+1001
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_addcredit_ss_max_session_exceeded_fail.txt
+login
+ssuser01
+addcredit
+991
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_addcredit_ss_negative_credit_fail.txt
+login
+ssuser01
+addcredit
+-200
+logout
+./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_addcredit_ss_non_number_fail.txt
+login
+ssuser01
+addcredit
+twenty
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_addcredit_ss_success.txt
+login
+ssuser02
+addcredit
+300
+logout
+./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_addcredit_ss_zero_credit_fail.txt
+login
+ssuser01
+addcredit
+0
+logout
+addcredit./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_buy_aa_success.txt
+Login
+admin1
+Buy
+samplegame
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_buy_already_owned.txt
+Login
+buystandard
+Buy
+samplegame
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_buy_bs_success.txt
+Login
+buystandard
+Buy
+Nier
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_buy_fs_success.txt
+Login
+fullstandard
+Buy
+samplegame
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_buy_game_not_found.txt
+Login
+buystandard
+Buy
+randomgame
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_buy_insufficient_funds.txt
+Login
+lowcredituser
+Buy
+expensivegame
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_buy_ss_fail.txt
+Login
+sellstandard
+Buy
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_buy_without_login.txt
+buy
+exit./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_create_aa_user.txt
+login
+admin1
+create
+newuseraa
+AA
+100
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_create_bs_fail.txt
+login
+buystandard
+create
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_create_duplicate_user.txt
+login
+admin1
+create
+fullstandard
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_create_fs_fail.txt
+login
+fullstandard
+create
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_create_invalid_user_type.txt
+login
+admin1
+create
+newuser
+AB
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_create_invalid_username.txt
+login
+admin1
+create
+abcdefghijklmnopqrstuvwxyz
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_create_max_credit_exceeded.txt
+login
+admin1
+create
+newuser
+BS
+1000000
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_create_new_bs_user.txt
+login
+admin1
+create
+newuserbs
+BS
+10
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_create_new_fs_user.txt
+login
+admin1
+create
+newuserfs
+FS
+10
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_create_new_ss_user.txt
+login
+admin1
+create
+newuserss
+SS
+10
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_create_ss_fail.txt
+login
+sellstandard
+create
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt
+create
+exit./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_delete_current_user.txt
+login
+admin1
+delete
+admin1
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_delete_non_existing_user.txt
+login
+admin1
+delete
+nonuser
+logout
+exit./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_delete_aa_success.txt
+login
+admin1
+delete
+fullstandard
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_delete_bs_fail.txt
+login
+bsuser01
+delete
+buystandard
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_delete_fs_fail.txt
+login
+fsuser01
+delete
+fullstandard
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_delete_ss_fail.txt
+login
+ssuser01
+delete
+sellstandard
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt
+delete
+exit./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_exit_while_logged_in.txt
+login
+admin1
+exit./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt
+exit./distribution-system.exe current_user_accounts.txt invalid_available_games.txt game_collection.txt dtf_test_game_list_aa_does_not_exist_fail.txt
+Login
+admin1
+List
+Games
+Logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_game_list_aa_success.txt
+Login
+admin1
+List
+Games
+Logout./distribution-system.exe current_user_accounts.txt invalid_available_games.txt game_collection.txt dtf_test_game_list_bs_does_not_exist_fail.txt
+Login
+bsuser01
+List
+Games
+Logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_game_list_bs_success.txt
+Login
+bsuser01
+List
+Games
+Logout./distribution-system.exe current_user_accounts.txt invalid_available_games.txt game_collection.txt dtf_test_game_list_fs_does_not_exist_fail.txt
+Login
+fsuser01
+List
+Games
+Logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_game_list_fs_success.txt
+Login
+fsuser01
+List
+Games
+Logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt
+List
+Exit./distribution-system.exe current_user_accounts.txt invalid_available_games.txt game_collection.txt dtf_test_game_list_ss_does_not_exist_fail.txt
+Login
+ssuser01
+List
+Games
+Logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_game_list_ss_success.txt
+Login
+ssuser01
+List
+Games
+Logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_login_already_logged_in.txt
+login
+admin1
+login
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_login_success_aa.txt
+login
+admin1
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_login_success_bs.txt
+login
+buystandard
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_login_success_fs.txt
+login
+fullstandard
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_login_success_ss.txt
+login
+sellstandard
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_login_user_not_found.txt
+login
+idontexist
+exit./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_logout_aa.txt
+login
+admin1
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_logout_bs.txt
+login
+buystandard
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_logout_fs.txt
+login
+fullstandard
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_logout_ss.txt
+login
+sellstandard
+logoutlogout./distribution-system.exe current_user_accounts.txt invalid_available_games.txt game_collection.txt dtf_test_read_games_file_failure.txt./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_read_games_file_success.txt
+Login
+admin1
+logout./distribution-system.exe invalid_user_accounts.txt available_games.txt game_collection.txt dtf_test_sell_aa_success.txt./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_read_user_accounts_file_success.txt
+Login
+admin1
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_refund_aa_success.txt
+Login
+admin1
+Refund
+buystandard
+sellstandard
+10
+Logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_refund_bs_fail.txt
+Login
+buystandard
+Refund
+sellstandard
+10
+Logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_refund_buyer_exceed_limit.txt
+Login
+admin1
+refund
+buystandard
+sellstandard
+10
+Logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_refund_buyer_not_found.txt
+Login
+admin1
+Refund
+nonbuyer
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_refund_fs_fail.txt
+Login
+fullstandard
+Refund
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_refund_seller_insufficient_funds.txt
+Login
+admin1
+Refund
+buystandard
+sellstandard
+900
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_refund_seller_not_found.txt
+Login
+admin1
+Refund
+buystandard
+nonseller
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_refund_ss_fail.txt
+Login
+sellstandard
+Refund
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt
+refund
+exit./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_sell_aa_success.txt
+login
+admin1
+sell
+aasamplegame
+10
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_sell_bs_fail.txt
+login
+buystandard
+sell
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_sell_duplicate_name.txt
+login
+sellstandard
+sell
+samplegame
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_sell_fs_success.txt
+Login
+fullstandard
+sell
+fssamplegame
+10
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_sell_invalid_name.txt
+Login
+sellstandard
+sell
+thisgamenameistoolongtobesold
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_sell_invalid_price.txt
+Login
+sellstandard
+Sell
+invalidgame
+1200
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_sell_ss_success.txt
+Login
+sellstandard
+sell
+sssamplegame
+10
+logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt
+sell
+exit./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_unidentified_command.txt
+login
+admin1
+hello world
+logout./distribution-system.exe invalid_user_accounts.txt available_games.txt game_collection.txt 
+login
+admin1
+list
+users
+exit./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_user_list_aa_success.txt
+Login
+admin1
+List
+Users
+Logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_user_list_bs_fail.txt
+Login
+bsuser01
+List
+users
+Logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_user_list_fs_fail.txt
+Login
+fsuser01
+List
+users
+Logout./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt
+List
+exit./distribution-system.exe current_user_accounts.txt available_games.txt game_collection.txt dtf_test_user_list_ss_fail.txt
+Login
+ssuser01
+List
+users
+Logout
