@@ -1,0 +1,199 @@
+Error: Unable to open available games file ./storage/invalid_available_games.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt
+Line length: 43
+Error: Invalid line length in game collection file ./storage/game_collection.txt

@@ -1,0 +1,2 @@
+Line length: 41
+Error: Invalid line length in game collection file ./storage/game_collection.txt

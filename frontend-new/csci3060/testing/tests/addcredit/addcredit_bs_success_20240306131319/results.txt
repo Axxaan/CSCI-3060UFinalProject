@@ -1,3 +1,0 @@
-Enter command: Please enter your username: Welcome, bsuser01.
-Enter command: Enter credit amount: Credit added successfully.
-Enter command: Logout successful.

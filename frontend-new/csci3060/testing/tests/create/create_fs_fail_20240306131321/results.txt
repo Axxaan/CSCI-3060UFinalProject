@@ -1,3 +1,0 @@
-Enter command: Please enter your username: Welcome, fullstandard.
-Enter command: Error: Unauthorized. Only admin users can create accounts.
-Enter command: Logout successful.
