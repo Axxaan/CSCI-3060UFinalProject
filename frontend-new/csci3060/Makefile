@@ -123,6 +123,13 @@ test:
 %:
 	@:
 
+daily:
+	chmod +x daily.sh
+	 bash daily.sh $(filter-out $@,$(MAKECMDGOALS))
+%:
+	@:
+
+
 compare:
 	chmod +x compare_results.sh
 	 bash compare_results.sh $(filter-out $@,$(MAKECMDGOALS))

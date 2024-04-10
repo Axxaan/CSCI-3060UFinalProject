@@ -3,7 +3,7 @@ class GameManager:
     def add_game_to_collection(game_name, buyer_username, game_collections_file):
         # Appends a game and its new owner to the game collections file.
         with open(game_collections_file, 'a') as file:
-            file.write(f"{game_name}________________{buyer_username}________\n")
+            file.write(f"{game_name}______________{buyer_username}_______\n")
 
     @staticmethod
     def add_game_for_sale(game_name, seller_username, price, available_games_file):

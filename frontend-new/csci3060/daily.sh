@@ -2,7 +2,11 @@
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 NC='\033[0m' # No Color
-
+# Check if distribution-system.exe exists in the current directory
+if [ ! -f "distribution-system.exe" ]; then
+    echo -e "${RED}Error: distribution-system.exe not found in the current directory. Make sure to do ${GREEN}make build${NC} before running tests"
+    exit 1
+fi
 list_subdirs() {
     for dir in "$1"/*/
     do
@@ -11,13 +15,10 @@ list_subdirs() {
     done
 }
 
-# Check if distribution-system.exe exists in the current directory
-if [ ! -f "distribution-system.exe" ]; then
-    echo -e "${RED}Error: distribution-system.exe not found in the current directory. Make sure to do ${GREEN}make build${NC} before running tests"
-    exit 1
-fi
+# Arrays to hold the directories
+declare -a dirs
 
-if [ ! -d "phase6/daily_transactions" ]; then
+if [ ! -d "storage/daily_transactions" ]; then
     mkdir "storage/daily_transactions"
 fi
 
@@ -55,7 +56,7 @@ do
     # Remove the named pipe
     rm pipe
 
-    latest_file=$(find phase6/daily_transactions -maxdepth 1 -type f -printf '%T@ %p\n' | sort -n | tail -1 | cut -f2- -d' ')
+    latest_file=$(find storage/daily_transactions -maxdepth 1 -type f -printf '%T@ %p\n' | sort -n | tail -1 | cut -f2- -d' ')
 
     cp "$dir/output.txt" "$result_dir/"
 
@@ -65,6 +66,7 @@ do
         cp "$dir/daily_transaction.txt" "$result_dir/"
     fi
     # save daily merged transaction file to phase6 folder with diff name every time it is made
-    if[-f "storage/merged_daily_transactions.txt"]; then
+    if [-f "storage/merged_daily_transactions.txt"]; then
         cp --backup=t "storage/merged_daily_transactions.txt" "phase6/daily_merged"
+    fi
 done
