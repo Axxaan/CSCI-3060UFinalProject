@@ -1,7 +1,24 @@
+#!/bin/bash
+
+
 # Define Colours
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 NC='\033[0m' # No Color
+
+merge_daily_transactions() {
+    input_folder="storage/daily_transactions"
+    output_folder="storage"
+    
+    transactions=()
+    for file_name in "$input_folder"/*; do
+        transactions+=("$(cat "$file_name")")
+    done
+
+    merged_file_path="$output_folder/merged_daily_transactions.txt"
+    printf "%s\n" "${transactions[@]}" > "$merged_file_path"
+} 
+
 # Check if distribution-system.exe exists in the current directory
 if [ ! -f "distribution-system.exe" ]; then
     echo -e "${RED}Error: distribution-system.exe not found in the current directory. Make sure to do ${GREEN}make build${NC} before running tests"
@@ -29,15 +46,16 @@ rm -f storage/daily_transactions/dtf_test_*
 for arg in "$@"
 do
     
-    for dir in testing/cases/*/
-    do
-        dirs+=($(list_subdirs "$dir"))
-    done
+    if [ "$arg" == "all" ]; then
+        for dir in testing/cases/*/
+        do
+            dirs+=($(list_subdirs "$dir"))
+        done
+    fi
     
 done
 
-for dir in "${dirs[@]}"
-do
+for dir in "${dirs[@]}"; do
     result_dir="testing/tests/${dir#testing/cases/}_$(date +%Y%m%d%H%M%S)"
     mkdir -p "$result_dir"
 
@@ -56,17 +74,18 @@ do
     # Remove the named pipe
     rm pipe
 
-    latest_file=$(find storage/daily_transactions -maxdepth 1 -type f -printf '%T@ %p\n' | sort -n | tail -1 | cut -f2- -d' ')
-
+    # Copy the output.txt file
     cp "$dir/output.txt" "$result_dir/"
 
-    # copy the daily transaction file if it exists
+    # Copy the daily transaction file if it exists
     if [ -f "$dir/daily_transaction.txt" ]; then
-        cp -p "$latest_file" "$result_dir/"
+        cp -p "$(find storage/daily_transactions -maxdepth 1 -type f -printf '%T@ %p\n' | sort -n | tail -1 | cut -f2- -d' ')" "$result_dir/merged_daily_transactions.txt"
         cp "$dir/daily_transaction.txt" "$result_dir/"
     fi
-    # save daily merged transaction file to phase6 folder with diff name every time it is made
-    if [-f "storage/merged_daily_transactions.txt"]; then
-        cp --backup=t "storage/merged_daily_transactions.txt" "phase6/daily_merged"
-    fi
+
+    # Copy the merged daily transaction file to the daily transactions directory
+    cp "$result_dir/merged_daily_transactions.txt" "storage/daily_transactions/dtf_$(date +%Y%m%d%H%M%S).txt"
+
+    # Merge the daily transactions
+    merge_daily_transactions
 done

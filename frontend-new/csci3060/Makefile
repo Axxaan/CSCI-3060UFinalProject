@@ -116,6 +116,7 @@ clean:
 rebuild: clean build
 
 .PHONY: test
+.PHONY: daily
 
 test:
 	chmod +x run_tests.sh
@@ -129,7 +130,10 @@ daily:
 %:
 	@:
 
-
+weekly:
+	chmod +x weekly.sh
+	./weekly.sh
+	
 compare:
 	chmod +x compare_results.sh
 	 bash compare_results.sh $(filter-out $@,$(MAKECMDGOALS))
